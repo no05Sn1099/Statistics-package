@@ -18,7 +18,7 @@
 #    2        2         1         0.695
 #    2        2         2         0.153
 
-data=read.csv("C:/Users/User/Downloads/school/lecture/Statistics/RCBD_withsubsample_hw.csv", header=T, sep=",") ### 
+data=read.csv("FileName.csv", header=T, sep=",") ### 
 
 attach(data)
 
