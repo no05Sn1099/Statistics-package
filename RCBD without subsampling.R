@@ -1,7 +1,7 @@
 # RCBD: NO subsampling 
 # with multiple comparison
 
-data=read.csv("C:/Users/User/Downloads/school/lecture/Statistics/HW_random1.csv", header=T, sep=",") ### 
+data=read.csv("FileName.csv", header=T, sep=",") ### 
 # Noticed that the data structure should be like this: 
 # 'class1' 'class1' 'value'
 #    1        1      0.525
@@ -36,12 +36,12 @@ summary(anova_result)
 
 # Tukey's HSD
 # Count by TukeyHSD()
-# TukeyHSD(x, which, ordered = FALSE, conf.level = 0.95, ¡K) 
+# TukeyHSD(x, which, ordered = FALSE, conf.level = 0.95, ...) 
 #          x: aov fit
 #          which: which factor?
 
 # Bonferroni method (pairwise comparison)
-# pairwise.t.test(Y, Treatment, p.adj = ¡§bonferroni¡¨)
+# pairwise.t.test(Y, Treatment, p.adj = "bonferroni")
 # The result represents p-value of each comparison. If < 0.05, then there's significant difference.
 
 
